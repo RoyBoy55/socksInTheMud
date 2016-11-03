@@ -5,3 +5,21 @@ h1 {
 p {
   color:red;
 }
+
+
+img {
+  animation-duration: 2s;
+  animation-name: fliper;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes fliper {
+from  {
+    margin-left: 0;
+  }
+
+to {
+  margin-left: 1150px;
+  }
+}
